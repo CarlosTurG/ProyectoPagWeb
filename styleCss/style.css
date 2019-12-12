@@ -7,10 +7,6 @@ div.margin img {
     border-radius: 12px;
 }
 
-article {
-    max-width: 720px;
-    display: inline-block;
-}
 
 /* CSS navegador*/ 
 .navbar {
