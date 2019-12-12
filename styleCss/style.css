@@ -1,0 +1,63 @@
+/* Familia de la fuente */
+* {font-family: 'Merriweather', serif;}
+
+div.margin img {
+    max-width: 50%;
+    margin-bottom:3%;
+    border-radius: 12px;
+}
+
+article {
+    max-width: 720px;
+    display: inline-block;
+}
+
+/* CSS navegador*/ 
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+}
+
+/* CSS header*/ 
+.jumbotron {
+    margin-bottom: 0;
+    background-color:#336600;
+    color: white;
+}
+
+/* Panel cajas pagina tienda */
+.panel {background-color: #996600a4;}
+
+/*div.margin {margin-left: 10%;}*/
+
+/* Iconos barra lateral */
+div a.nav-link {font-size: 40px;}
+
+/* CSS footer */
+footer {
+    background-color: #336600;
+    color: white;
+    padding: 25px;
+
+/* En navegadores pequeños establecer 'auto' el sidenav y el grid */
+@media screen and (max-width: 767px) {
+.sidenav {
+    height: auto;
+    padding: 15px;
+}
+.row.content {height:auto;} 
+
+
+.carousel-inneriv div.item img {
+    width: 100%; /* Establecer un ancho máximo de 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+
+/* Esconder el texto del Carousel cuando el tamaño de pantalla sea menor que 600 pixels de anchura */
+@media (max-width: 600px) {
+.carousel-caption {
+    display: none; 
+}
+}
